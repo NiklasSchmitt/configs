@@ -2,6 +2,13 @@
 	name = Niklas Schmitt
 	email = [...]
 [alias]
-	st = status
-	co = checkout
-	di = diff
+        st = status
+        co = checkout
+        di = diff --color
+        diss = diff --staged
+[push]
+        default = simple
+[core]
+        pager = 
+        editor = vim
+
