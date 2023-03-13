@@ -4,17 +4,18 @@
 auto-save.sublime-package
 BracketHighlighter.sublime-package
 ChangeQuotes.sublime-package
-Color Highlighter.sublime-package'
-Delete Current File.sublime-package'
-File Rename.sublime-package'
+Color Highlighter.sublime-package
+CSS3.sublime-package
+Delete Current File.sublime-package
+File Rename.sublime-package
 FileTabRename.sublime-package
-Function Name Display.sublime-package'
+Function Name Display.sublime-package
 GitGutter.sublime-package
 Git.sublime-package
 Highlighter.sublime-package
 MarkdownPreview.sublime-package
-Package Control.sublime-package'
-Pretty JSON.sublime-package'
+Package Control.sublime-package
+Pretty JSON.sublime-package
 SideBarEnhancements.sublime-package
 SublimeLinter-eslint.sublime-package
 SublimeLinter-flake8.sublime-package
@@ -22,19 +23,21 @@ SublimeLinter-json.sublime-package
 SublimeLinter-shellcheck.sublime-package
 SublimeLinter.sublime-package
 SublimeLinter-xmllint.sublime-package
-Sublimerge 3.sublime-package'
+Sublimerge 3.sublime-package
 SyncedSideBar.sublime-package
 TemplateToolkit.sublime-package
 TrailingSpaces.sublime-package
 VAlign.sublime-package
-Znuny4OTRS.sublime-package
+Znuny.sublime-package
 ```
 
 keymap:
 ```
 [
-    { "keys": ["ctrl+shift+d"], "command": "toggle_comment", "args": { "block": true } },
+    { "keys": ["ctrl+shift+d"], "command": "toggle_comment", "args": { "block": false } },
     { "keys": ["alt+-"], "command": "valign" },
+    { "keys": ["ctrl+shift+g"], "command": "find_all_under" },
+    { "keys": ["ctrl+alt+s"], "command": "save_all" },
 ]
 
 ```
@@ -49,14 +52,14 @@ settings:
 	"caret_extra_bottom": 3,
 	"caret_extra_top": 3,
 	"caret_extra_width": 2,
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"color_scheme": "Monokai.sublime-color-scheme",
 	"default_line_ending": "unix",
 	"draw_white_space": "all",
 	"fade_fold_buttons": false,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
@@ -68,7 +71,8 @@ settings:
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true
+	"word_wrap": true,
+	"font_size": 15,
 }
 
 ```
