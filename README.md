@@ -1,6 +1,9 @@
 # configs
 my personal configuration for some programs &amp; software
 
+## basic debian packages
+`sudo apt install ca-certificates curl htop iotop git whois `
+
 ## additional notes:
 * https://niklas-schmitt.de/bash-history-page-up-page-down/
 * add this line to `.bashrc` of `root` for fancy red color:
