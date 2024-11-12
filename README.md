@@ -2,7 +2,7 @@
 my personal configuration for some programs &amp; software
 
 ## basic debian packages
-`sudo apt install ca-certificates curl htop iotop git whois `
+`sudo apt install ca-certificates curl htop iotop git whois net-tools`
 
 ## additional notes:
 * https://niklas-schmitt.de/bash-history-page-up-page-down/
